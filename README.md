@@ -24,18 +24,13 @@ git clone https://github.com/Adi7015YT/nats-account-autoconfig
 NATS_SERVER_URL = "nats://your-server.com:4222"  # Your NATS server address
 ```
 
-2. Configure your operator name:
-```python
-OPERATOR = "OP_NAME"  # Your NATS operator name
-```
-
-3. Adjust server listening settings (if needed):
+2. Adjust server listening settings (if needed):
 ```python
 SERVER_HOST = '0.0.0.0'  # Listen on all interfaces
 SERVER_PORT = 8080       # API server port
 ```
 
-4. Set credentials storage directory:
+3. Set credentials storage directory:
 ```python
 CREDS_DIR = "/etc/nats/creds"  # Directory to store credentials
 ```
@@ -112,6 +107,6 @@ Pull requests are welcome. Please open an issue first to discuss significant cha
 nats-config-server/
 ├── nats_config_server.py    # Main server script
 ├── README.md                # This file
-└──requirements.txt         # Python requirements
+└── requirements.txt         # Python requirements
 ```
 This implementation provides a complete solution for automating NATS account and user management through a simple HTTP API, making it easy for clients to get connected with a single command.
