@@ -115,4 +115,3 @@ nats-config-server/
 └──requirements.txt         # Python requirements
 ```
 This implementation provides a complete solution for automating NATS account and user management through a simple HTTP API, making it easy for clients to get connected with a single command.
-```
